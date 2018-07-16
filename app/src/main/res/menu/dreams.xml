@@ -9,13 +9,8 @@
         android:title="@string/action_settings"
         app:showAsAction="never"/>-->
     <item
-        android:id="@+id/search_dreams"
-        android:title="My Profile"
-        android:icon="@android:drawable/ic_menu_search"
-        app:showAsAction="ifRoom" />
-    <item
         android:id="@+id/add_dream_entry"
-        android:title="Settings"
+        android:title="Add Dream Log"
         android:icon="@android:drawable/ic_menu_add"
         app:showAsAction="ifRoom" />
 

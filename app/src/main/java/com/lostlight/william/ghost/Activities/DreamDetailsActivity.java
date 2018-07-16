@@ -25,6 +25,6 @@ public class DreamDetailsActivity extends AppCompatActivity {
         details.setText(SELECTED_DREAM.getDetails());
 
         TextView tags = (TextView)findViewById(R.id.txtDreamTags);
-        //tags.setText(SELECTED_DREAM.getDescription());
+        tags.setText(SELECTED_DREAM.getDreamTagsStr());
     }
 }

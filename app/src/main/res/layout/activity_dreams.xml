@@ -11,7 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+            android:layout_margin="10dp">
+            <EditText android:id="@+id/inputSearch" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:hint="Search by tag or date...">
+            </EditText>
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0" android:id="@+id/btnCalendar"
+                android:src="@android:drawable/ic_menu_my_calendar" android:background="@color/colorPrimary"/>
+        </LinearLayout>
         <ListView
             android:id="@+id/_dream_list"
             android:layout_width="match_parent"
